@@ -1,0 +1,30 @@
+package Test;
+
+public class Endereco {
+	private String rua;
+	private short numero;
+	private String complemento;
+	private String bairro;
+	private String cep;
+	
+	
+	public void setAll(String logradouro, String numero, String bairro, String cidade, String uf, String cep) {
+		super();
+		this.logradouro = logradouro;
+		this.numero = numero;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.uf = uf;
+		this.cep = cep;
+	}
+	
+	public String getAll() {
+		return rua + numero + complemento+ bairro+cep
+	}
+	
+	
+	
+	
+	
+	
+}

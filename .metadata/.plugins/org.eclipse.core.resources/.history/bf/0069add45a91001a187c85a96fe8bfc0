@@ -1,0 +1,19 @@
+package br.com.universidademodelo;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+				
+		// Testando Aluno
+		Aluno aluno = new Aluno();
+		aluno.setNome(JOptionPane.showInputDialog("Digite o nome do aluno").toUpperCase());
+		
+		System.out.println(aluno);
+	
+		
+
+	}
+
+}

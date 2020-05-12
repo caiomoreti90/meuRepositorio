@@ -1,0 +1,23 @@
+package collection_framework;
+
+import java.awt.List;
+
+public class TesteLista {
+	
+	public static void main(String[] args) {
+		List lista = new List();
+		ArrayList lista = new ArrayList();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

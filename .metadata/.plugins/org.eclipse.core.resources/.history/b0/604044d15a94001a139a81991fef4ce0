@@ -1,0 +1,21 @@
+package projeto_pilha;
+
+import javax.swing.JOptionPane;
+
+public class Teste {
+	
+	public static String texto(String msg) {
+		return JOptionPane.showInputDialog(msg).toUpperCase();
+	}
+	
+	
+	Pilha idades = new Pilha();
+	
+	texto("Vazio? " +idades.vazio());
+	texto("Cheio? " +idades.cheio());
+
+	idades.inserir(18);
+	idades.inserir(25);
+	idades.inserir(44);
+
+}

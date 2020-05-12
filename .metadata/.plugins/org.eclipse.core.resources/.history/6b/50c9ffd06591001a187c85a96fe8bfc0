@@ -1,0 +1,17 @@
+package br.com.Beans;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Livro livro = new Livro("Pearson", "Jose de Alencar",171,25,"Iracema");
+		
+		System.out.println(Livro.getAll());
+			
+		
+		
+	}
+
+}

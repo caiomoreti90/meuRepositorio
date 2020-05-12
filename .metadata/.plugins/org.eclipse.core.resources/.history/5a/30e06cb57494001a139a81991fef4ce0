@@ -1,0 +1,33 @@
+package collection_framework;
+
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteLista {
+	
+	public static void main(String[] args) {
+
+		// Forma genérica ( varios tipos de dados na lista)
+		List lista = new ArrayList();
+		lista.add(10);
+		lista.add("XPTO");
+		lista.add(true);
+		System.out.println(lista);
+		System.out.println(lista.get(1));
+		
+		// Forma específica (Somente String na lista)
+		List<String> listaEspecifica = new ArrayList<>();
+		listaEspecifica.add("DBA");
+		listaEspecifica.add("ANALISTA");
+		listaEspecifica.add("DEV");
+		System.out.println(listaEspecifica);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,43 @@
+package Beans;
+
+import javax.swing.JOptionPane;
+
+import br.com.Beans.Bacharelado;
+import br.com.Beans.Formacao;
+import br.com.Beans.Medio;
+import br.com.Beans.Tecnologo;
+
+public class Teste {
+	
+	public static void main(String[] args) {
+		
+		Formacao objeto = null;
+		char resposta = JOptionPane.showInputDialog("Escolha:\n<1> Medio\n<2> Tecnologo\n <3> Bacharelado").charAt(0);
+		if (resposta=='1') {
+			objeto=new Medio(
+					texto("Descricao"),
+					inteiro("Periodo"),
+					0,
+					0,
+					texto("Tipo")
+					);
+		}else if(resposta=='2') {
+			objeto = new Tecnologo(
+					texto("Descricao"),
+					inteiro("Periodo"),
+					0,
+					0,
+					texto("Tipo")
+					);
+		}else if(resposta=='3') {
+			objeto = new Bacharelado();
+		}else {
+			System.out.println("Opcao invalida!");
+		}
+		
+		
+		
+		
+	}
+
+}

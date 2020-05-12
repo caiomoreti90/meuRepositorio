@@ -1,0 +1,17 @@
+package br.com.universidademodelo;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	public static void main(String[] args) {
+				
+		// Testando o Construtor Aluno
+		Aluno aluno = new Aluno("Caio", "caiomoretisantos@gmail.com","11942550568",90602,"Nivaldo");
+		aluno.setAll(JOptionPane.showInputDialog("Digite o nome do aluno"));
+		
+		System.out.println(aluno.getAll());
+	
+	}
+
+}

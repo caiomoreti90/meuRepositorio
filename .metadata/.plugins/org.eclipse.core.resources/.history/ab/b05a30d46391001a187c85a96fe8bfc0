@@ -1,0 +1,7 @@
+package br.com.Beans;
+
+public class Livro extends Produto{
+	private String isbn;
+	private String autor;
+
+}

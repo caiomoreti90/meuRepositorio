@@ -1,0 +1,65 @@
+package br.com.Beans;
+
+public class Bacharelado extends Formacao{
+	private boolean planoEstendido;
+	private int cargaHorariaEstagio;
+
+	public void calcularMensalidade(fator) {
+		super.setMensalidade(super.getDuracao()*fator*500);
+	}
+
+
+
+
+
+
+
+
+
+	//Construtor vazio
+	public Bacharelado() {
+		super();
+	}
+
+	// construtor cheio
+	public Bacharelado(String descricao, int periodo, double mensalidade, int duracao, boolean planoEstendido,
+			int cargaHorariaEstagio) {
+		super(descricao, periodo, mensalidade, duracao);
+		this.planoEstendido = planoEstendido;
+		this.cargaHorariaEstagio = cargaHorariaEstagio;
+	}
+
+
+	public boolean isPlanoEstendido() {
+		return planoEstendido;
+	}
+	
+	// Getters e Setters individuais
+	public void setPlanoEstendido(boolean planoEstendido) {
+		this.planoEstendido = planoEstendido;
+	}
+	public int getCargaHorariaEstagio() {
+		return cargaHorariaEstagio;
+	}
+	public void setCargaHorariaEstagio(int cargaHorariaEstagio) {
+		this.cargaHorariaEstagio = cargaHorariaEstagio;
+	}
+
+	//GetAll
+	
+	
+	//Set All
+	public void setAll(String descricao, int periodo, double mensalidade, int duracao, boolean planoEstendido,
+			int cargaHorariaEstagio) {
+		super(descricao, periodo, mensalidade, duracao);
+		this.planoEstendido = planoEstendido;
+		this.cargaHorariaEstagio = cargaHorariaEstagio;
+	}
+
+
+
+
+
+
+
+}

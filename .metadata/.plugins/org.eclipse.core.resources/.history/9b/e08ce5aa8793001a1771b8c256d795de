@@ -1,0 +1,15 @@
+package br.com.Beans;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		Livro livro = new Livro(171,25,"Iracema","Pearson", "Jose de Alencar");
+		
+		System.out.println(livro.getAll());
+			
+
+		
+	}
+
+}

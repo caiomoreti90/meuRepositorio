@@ -1,0 +1,22 @@
+package collection_framework;
+
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class TesteLista {
+	
+	public static void main(String[] args) {
+
+		List lista = new ArrayList();
+		lista.add(10);
+		lista.add("XPTO");
+		
+		
+		
+		
+		
+		
+	}
+
+}

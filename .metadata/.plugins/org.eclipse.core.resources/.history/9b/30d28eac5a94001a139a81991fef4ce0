@@ -1,0 +1,11 @@
+package projeto_pilha;
+
+public class Teste {
+	
+	
+	Pilha objeto = new Pilha();
+	
+	System.out.prinln("");
+
+
+}

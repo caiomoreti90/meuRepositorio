@@ -1,0 +1,41 @@
+package br.com.Beans;
+
+public class Tecnologo extends Formacao{
+	private boolean planoEstendido;
+	
+	public void calcularMensalidade(double fator) {
+		super.setMensalidade(getDuracao() * fator * 600);
+	}
+	
+	//Get All
+	public String getAll() {
+		return planoEstendido+"\n" +super.getAll();
+	}
+	
+	// 
+	public Tecnologo(boolean planoEstendido) {
+		super();
+		this.planoEstendido = planoEstendido;
+	}
+
+	public boolean isPlanoEstendido() {
+		return planoEstendido;
+	}
+
+	public void setPlanoEstendido(boolean planoEstendido) {
+		this.planoEstendido = planoEstendido;
+	}
+
+	//Construtor vazio
+	public Tecnologo() {
+		super();
+	}
+
+	//Set All
+	public void setAll(boolean planoEstendido) {
+		super();
+		this.planoEstendido = planoEstendido;
+	}
+	
+	
+}

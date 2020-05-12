@@ -1,0 +1,15 @@
+package br.com.Beans;
+
+public class Bacharelado extends Formacao{
+	private boolean planoEstendido;
+	private int cargaHorariaEstagio;
+	
+	public void calcularMensalidadedou(fator) {
+		super.setMensalidade(super.getDuracao()*fator*500)
+	}
+	
+	
+	
+	
+
+}

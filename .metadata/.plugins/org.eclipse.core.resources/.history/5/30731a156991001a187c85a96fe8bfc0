@@ -1,0 +1,33 @@
+package Test;
+
+public class Endereco {
+	private String rua;
+	private short numero;
+	private String complemento;
+	private String bairro;
+	private String cep;
+	
+	
+	//Construtor vazio
+	public Endereco() {
+		super();
+	}
+
+	// Contrutor Cheio
+	public Endereco(String rua, short numero, String complemento, String bairro, String cep) {
+		super();
+		this.rua = rua;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.cep = cep;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

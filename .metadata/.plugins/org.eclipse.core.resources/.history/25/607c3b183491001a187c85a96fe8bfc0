@@ -1,0 +1,32 @@
+package teste;
+
+import javax.swing.JOptionPane;
+
+import modelo.Endereco;
+import modelo.Professor;
+
+public class TesteConstrutor {
+
+	public static void main(String[] args) {
+
+		Professor objetoProfessor = new Professor(
+				JOptionPane.showInputDialog("Entre com o nome do professor"),
+				JOptionPane.showInputDialog("Entre com o apelido do professor"),
+				JOptionPane.showInputDialog("Entre com a materia do professor"), 
+				new Endereco(
+						JOptionPane.showInputDialog("Entre com a rua do professor"),
+						JOptionPane.showInputDialog("Entre com o numero da rua do professor"),
+						JOptionPane.showInputDialog("Entre com o bairro do professor"),
+						JOptionPane.showInputDialog("Entre com a cidade do professor"), 
+						JOptionPane.showInputDialog("Entre com Estado do professor"),
+						JOptionPane.showInputDialog("Entre com o CEP do professor")
+						)
+				);
+		//Professor objetoProfessor = new Professor("Madruga","Madruguinha","Filosofia", new Endereco("Rua x","1A","Centro","Sao Paulo", "SP","04195120"));
+		
+						
+		System.out.println(objetoProfessor.getAll());
+		
+	}
+
+}

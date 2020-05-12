@@ -1,0 +1,13 @@
+package teste;
+
+import modelo.Professor;
+
+public class TesteConstrutor {
+
+	public static void main(String[] args) {
+		Professor objetoProfessor = new Professor("Madruga","Madruguinha","Filosofia",);
+		
+		
+	}
+
+}

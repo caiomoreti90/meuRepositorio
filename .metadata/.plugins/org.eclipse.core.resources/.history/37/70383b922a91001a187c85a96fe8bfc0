@@ -1,0 +1,37 @@
+package teste;
+
+import modelo.Aluno;
+import modelo.Endereco;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		System.out.println("Teste de impressao na tela");
+		
+		//Aluno objeto=new Aluno();	// Instancia o objeto
+		Endereco objetoEndereco = new Endereco();
+		Aluno objetoAluno = new Aluno();
+		
+		
+		//objeto.setNome(JOptionPane.showInputDialog("Digite o Nome").toUpperCase());
+		//objeto.setNumeroMatricula(Integer.parseInt(JOptionPane.showInputDialog("Entre com a Matricula ")));
+		//objeto.setEmail(JOptionPane.showInputDialog("Entre com o email: ").toLowerCase());
+		
+		
+		//Endereco objetoEndereco = new Endereco();
+		
+		objetoEndereco.setAll("Rua Augusta Santel","39","Jardim Celeste","SP","Sao Paulo","04195120");
+		objetoAluno.setAll("Caio",90602,"caio.moreti@gmail.com",objetoEndereco);
+		objetoAluno.Endereco.setLogradouro("abcde");
+		objetoEndereco.setUf("SP");
+		
+		System.out.println(objeto.getAll());
+		
+//		System.out.println("O nome escrito eh: " + objeto.getNome());
+//		System.out.println("O numero de matricula digitado foi: " + objeto.getNumeroMatricula());
+//		System.out.println("O email digitado foi: " + objeto.getEmail());
+		
+	}
+
+}

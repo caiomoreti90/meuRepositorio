@@ -1,0 +1,6 @@
+package br.com.Beans;
+
+public class Medio {
+	private String tipo;
+	
+}

@@ -1,0 +1,11 @@
+package Test;
+
+public class Conta {
+	
+	praivate double saldo;
+	private Cliente titular
+	
+	public void setAll
+	public string getAll()
+
+}
